@@ -1,1 +1,1 @@
-A simple points game written in Python. It's very very basic.
+Here I will be placing my personal Python projects, for the sake of practice. 
