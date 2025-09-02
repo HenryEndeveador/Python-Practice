@@ -19,6 +19,8 @@ def temperature_converter(temperature):
 
     fahrenheit = (temperature * 9/5) + 32
 
+    print(f'\nThe temperature in Fahrenheit is: {fahrenheit}°F')
+
     if fahrenheit < 32:
 
         print('\nYou should wear a heavy winter coat, with gloves and a hat!\n')
@@ -45,7 +47,7 @@ while True:
     try:
 
         temperature = input('\nWhat is the temperature in Celsius? (or type "q" to quit): ')
-
+    
         if temperature.lower() == 'q':
 
             print("Exiting program. Stay safe!")
