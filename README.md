@@ -1,1 +1,1 @@
-Here I will be placing my personal Python projects, for the sake of practice. 
+Some small, personal python projects I've decided to take on, for the sake of learning. 
