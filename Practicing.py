@@ -15,3 +15,29 @@ second_list = [['bro'], ['bro 2']]
 second_list[0].append('bro 1')
 second_list[1].extend('bro 3')
 print(second_list)
+
+# tuples 
+
+empty_tuple = (45, 67, "Bob", "Dat")
+
+print(type(empty_tuple))
+
+ # A tuple item cannot be modified.
+
+ #so the following is not allowed
+
+# empty_tuple[0] = 46 # this will give an error
+
+# dictionaries
+
+#two ways of creating a dictionary 
+
+my_dict = {}
+
+my_dict = dict()
+
+student = {"name": "Toyosi", "age": 17, "major": "Electrical Engineering"}
+
+print(student)
+
+# keys should always be unique in a dictionary
