@@ -1,1 +1,1 @@
-Some small, personal python projects I've decided to take on, for the sake of learning. 
+This repository serves as the central hub for my personal development projects. It includes work across data science, machine learning, automation, and artificial intelligence. Each project is organized to highlight practical implementations, experimentation, and continuous learning in modern data and software workflows.
