@@ -39,5 +39,10 @@ my_dict = dict()
 student = {"name": "Toyosi", "age": 17, "major": "Electrical Engineering"}
 
 print(student)
+print(student.get("name")) #it's better to use .get for error handling. If name wasn't found, this wont throw an error
+print(student['name']) #this will however 
+
+student.update({"age": 25})
+print(student["age"])
 
 # keys should always be unique in a dictionary
