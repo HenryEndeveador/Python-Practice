@@ -46,3 +46,20 @@ student.update({"age": 25})
 print(student["age"])
 
 # keys should always be unique in a dictionary
+
+#sets are a data structure designed to store unique items and are perfect for situations where duplicates don't make sense
+
+empty_set = set() #to create an empty set, you use the set() function as empty braces {} creates an empty dictionary 
+
+fruits = {"apple", "banana", "orange", "mandarin", "cherry"} #this is a set because dictionaries require keyu-value pairs
+
+print(type(fruits))
+
+#set operations 
+
+set_1 = {1, 2, 3}
+set_2 = {3, 4, 5}
+set_3 = set_1.union(set_2)
+print(set_3)
+set_difference = set_1.difference(set_2)
+print(set_difference)
