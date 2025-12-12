@@ -11,6 +11,7 @@ a. Add a new contact (with name, phone number and email)\n
 b. Search for a contact by name\n
 c. Update a contact's information\n
 d. Delete a contact\n
+e. Display all contacts\n
 ''')
 
 def add_contact(contacts: dict) -> dict: 
@@ -196,6 +197,17 @@ while True:
             case 'd':
 
                 delete_contact(contacts)
+
+            case 'e':
+
+                for name, information in contacts.items():    #loop through the dictionary to display all contacts
+
+                    print(f'''
+                            Name: {name}
+
+                            Phone Number: {information["phone"]}
+
+                            Email: {information["email"]}\n''')
 
             case _:
 
